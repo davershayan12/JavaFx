@@ -3,12 +3,13 @@ import javafx.scene.*;
 import javafx.stage.*;
 import javafx.scene.layout.*;
 
-public class Javafx extends Application {
+public class Javafx01 extends Application {
     public static void main(String[] args) {
         System.out.println("Launching JavaFX application.");
         // Start the JavaFX application by calling launch().
         launch(args);
     }
+    
     
     // Override the init() method.
     public void init() {
